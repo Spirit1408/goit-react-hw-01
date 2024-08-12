@@ -1,0 +1,22 @@
+.friendAvatar {
+    width: 60px;
+}
+
+.friendName {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.friendStatus {
+    font-size: 13px;
+}
+
+.online {
+    composes: friendStatus;
+    color: #45993f;
+}
+
+.offline {
+    composes: friendStatus;
+    color: #ff231f;
+}

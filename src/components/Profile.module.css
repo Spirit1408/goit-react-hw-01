@@ -1,17 +1,13 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
-.profile-window {
+.profileWindow {
     border: 2px solid black;
     border-radius: 15px;
     background-color: #fff;
     overflow: hidden;
     width: 300px;
+    margin: 0 auto;
 }
 
-.user-main {
+.userMain {
     padding: 10px 0px;
 }
 
@@ -21,24 +17,24 @@
     border-radius: 50%;
 }
 
-.user-name {
+.userName {
     color: black;
     font-size: 24px;
     font-weight: bold;
     margin-top: 5px;
 }
 
-.user-info {
+.userInfo {
     color: #808080;
     font-size: 20px;
 }
 
-.profile-info-list {
+.profileInfoList {
     display: flex;
     justify-content: space-evenly;
 }
 
-.profile-info-item {
+.profileInfoItem {
     display: flex;
     flex-direction: column;
     border-top: 2px solid #808080;
@@ -48,16 +44,16 @@
     background-color: #d3d3d3;
 }
 
-.profile-info-item:first-child {
+.profileInfoItem:first-child {
     border-left: none;
 }
 
-.profile-info-title,
-.profile-info-data {
+.profileInfoTitle,
+.profileInfoData {
     color: black;
     font-size: 18px;
 }
 
-.profile-info-data {
+.profileInfoData {
     font-weight: bold;
 }
